@@ -25,7 +25,7 @@ namespace Matriz
             //    }
             //    Console.WriteLine();
             //}
-
+            //
             //int res = 0;
             //int[,] mat = new int[4, 4];
             //for (int i = 0; i < 4; i++)
