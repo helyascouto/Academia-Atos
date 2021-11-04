@@ -4,11 +4,12 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///C:/Users/Elias%20Couto/Desktop/HTML-CSS/index.html",
+            "url": "file:///C:/Users/Elias%20Couto/source/repos/helyascouto/Academia-Atos/HTML-CSS/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

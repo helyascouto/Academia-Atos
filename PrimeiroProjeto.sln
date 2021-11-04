@@ -36,7 +36,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tranpor uma matriz 3x4 para
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grenal", "Grenal\Grenal.csproj", "{BFAD642F-2A03-474F-B90F-535410A814D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quatidade de Chuva", "Quatidade de Chuva\Quatidade de Chuva.csproj", "{F0908D0F-FC19-4095-86CE-D47C1DBB6F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quatidade de Chuva", "Quatidade de Chuva\Quatidade de Chuva.csproj", "{F0908D0F-FC19-4095-86CE-D47C1DBB6F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funcao", "Funcao\Funcao.csproj", "{F10FB161-CA90-4250-A6E4-EF055F33219D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,6 +86,10 @@ Global
 		{F0908D0F-FC19-4095-86CE-D47C1DBB6F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0908D0F-FC19-4095-86CE-D47C1DBB6F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0908D0F-FC19-4095-86CE-D47C1DBB6F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10FB161-CA90-4250-A6E4-EF055F33219D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10FB161-CA90-4250-A6E4-EF055F33219D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10FB161-CA90-4250-A6E4-EF055F33219D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10FB161-CA90-4250-A6E4-EF055F33219D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,7 @@ Global
 		{E58E1C53-6E39-443C-9106-FDE03619A258} = {07D918D0-C6CD-4D11-822B-AFFE603CD401}
 		{BFAD642F-2A03-474F-B90F-535410A814D2} = {07D918D0-C6CD-4D11-822B-AFFE603CD401}
 		{F0908D0F-FC19-4095-86CE-D47C1DBB6F6D} = {07D918D0-C6CD-4D11-822B-AFFE603CD401}
+		{F10FB161-CA90-4250-A6E4-EF055F33219D} = {31698176-33DD-4C8E-9B12-376D574AF1F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5DF9800-A824-43ED-B2CC-AE625AF8F2B4}

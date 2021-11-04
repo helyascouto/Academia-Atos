@@ -6,6 +6,9 @@ namespace Tranpor_uma_matriz_3x4_para_outro_4x3
     {
         static void Main(string[] args)
         {
+            Random random = new Random(1,10);
+
+
             int[,] matriz_3x4 = new int[3, 4];
             int[,] matriz_4x3 = new int[4, 3];
             for (int i = 0; i < 3; i++)
