@@ -110,5 +110,16 @@ alert(n1);
         Digite n1: <input type="text" name="n1" id="n1">
         Digite n2: <input type="text" name="n2" id="n2">
         <button onclick="calcular(this);" id="btn">calcular</button>
+        <hr>
+
+        <script>
+            var nome = prompt("digite seu nome:").toString();
+            var n1 = Number(prompt("digite n1:"));
+            var n2 = Number(prompt("digite n2:"));
+            var total = n1 + n2;
+            confirm(`Olá ${nome}, A soma de ${n1} com ${n2} é ${total}`);
+            document.write("teste");
+        </script> 
+
     </body>
 </html>

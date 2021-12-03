@@ -472,7 +472,7 @@ namespace PrimeiroProjeto
             //}
             //Console.WriteLine("O resultado da soma: " + s);
 
-           
+
 
         }
 

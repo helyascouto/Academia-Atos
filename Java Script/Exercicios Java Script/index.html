@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="arquivo.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio JavaScript</title>
+</head>
+<header>
+    <h1>Exercicio JavaScript</h1>
+</header>
+
+<body id="fundo">
+    <section>
+        <header>
+            <h2>Exercicio 1</h2>
+        </header>
+        <p>
+        <h4> Crie um formulário com 4 botões que, ao clicar em cada um, altere a cor do plano de fundo da página para
+            vermelho, verde, azul e amarelo, respectivamente.</h4>
+        <button id="btnVemelho" onclick="Vemelho();">vermelho</button>
+        <button id="btnVerde" onclick="Verde();">verde</button>
+        <button id="btnAzul" onclick="Azul();">azul</button>
+        <button id="btnAmarelo" onclick="Amarelo();">amarelo</button>
+        <button id="btnAmarelo" onclick="Branco();">Branco</button>
+        </p>
+    </section>
+
+    <section>
+        <header>
+            <h2>Exercicio 2</h2>
+        </header>
+        <p>
+        <h4>Crie uma página com 4 links (tag 'a'), cada um representando o nome de uma cor, que, utilizando o evento
+            onmouseover altere a cor do plano de fundo para cor correspondente. </h4>
+        </p>
+        <nav class="links">
+            <a onmouseover="Vemelho()" href="#">Vemelho</a>
+            <a onmouseover="Amarelo()" href="#">Amarelo</a>
+            <a onmouseover="Azul()" href="#">Azul</a>
+            <a onmouseover="Verde()" href="#">Verde</a>
+            <a onmouseover="Branco()" href="#">Branco</a>
+        </nav>
+    </section>
+    <section>
+        <header>
+            <h2>Exercicio 3</h2>
+        </header>
+        <p>
+        <h4>3 - Crie uma página com uma lista (select - RadioButton) com 4 opções de cores. Ao selecionar uma opção de
+            cor, altere o plano de fundo da página para a cor específica. </h4>
+
+        <div>
+
+            <h2>Seleciona a cor</h2>
+
+            <input onclick="Vemelho();" type="radio" name="cor" value="Vemelho">Vemelho
+
+            <input type="radio" onclick="Amarelo();" name="cor" value="Amarelo">Amarelo
+
+            <input type="radio" onclick="Azul();" name="cor" value="Azul">Azul
+
+            <input type="radio" onclick="Verde();" name="cor" value="Verde">Verde
+
+            <input type="radio" onclick="Branco();" name="cor" value="Branco">Branco
+
+        </div>
+
+        </p>
+    </section>
+    <section>
+        <header>
+            <h2>Exercicio 4</h2>
+        </header>
+        <p>
+        <h4>Crie um parágrafo (<p>) com um texto como conteúdo. Adicione um botão que, ao ser clicado, oculte ou mostre
+                o texto do parágrafo.</h4>
+        </p>
+        <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iste eius quos praesentium
+            repellat debitis illum eligendi deleniti fuga voluptas, distinctio nesciunt aspernatur omnis, nostrum
+            possimus dolor in nobis pariatur!
+            Quaerat fugiat minus ad rerum enim laboriosam aut omnis sapiente nulla? Voluptas doloribus, autem ad eius,
+            velit commodi cum unde qui dignissimos adipisci neque ducimus pariatur, hic alias officia optio.</p>
+        <button id="btn" onclick="mudarFonte();">Esconder texto</button>
+
+
+    </section>
+    <section>
+        <header>
+            <h2>Exercicio 5</h2>
+        </header>
+        <p>
+        <h4>Crie um formulário de seleção de itens com checkbox. O formulário deve possuir um botão desabilitado. O
+            botão só se torna clicável quando tiver pelo menos 2 checkboxs marcado. </h4>
+        <input onclick="ChecksTodos(this);" type="checkbox" name="Todos"><strong>Todos</strong> <br>
+        <input onclick="VerificaChecks();" type="checkbox" name="Animal">Galinha<br>
+        <input onclick="VerificaChecks();" type="checkbox" name="Animal">Pato<br>
+        <input onclick="VerificaChecks();" type="checkbox" name="Animal">Tatu<br>
+        <input onclick="VerificaChecks();" type="checkbox" name="Animal">Vaca<br>
+        <button id="btnCbox" disabled="disabled">Salvar</button>
+
+        </p>
+    </section>
+    <section>
+        <header>
+            <h2>Exercicio 6</h2>
+        </header>
+        <p>
+        <h4>Crie um parágrafo com um texto como conteúdo. Crie 4 botões. Dois para trocar a cor da fonte, de branco para
+            preto e vice-versa e outros dois para fazer o mesmo com o fundo do parágrafo. Use divs se julgar necessário.
+        </h4>
+        </p>
+        <p id="txt">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus temporibus obcaecati ducimus culpa nam
+            vitae doloribus molestias? Culpa veritatis voluptatum quo? Pariatur, similique animi aliquam fugiat
+            voluptatibus quam quidem nemo!
+        </p>
+        <button onclick="CordaFonte('white');">Cor da fonte-branco</button>
+        <button onclick="CordaFonte('black');">Cor da fonte-preto</button>
+        <button onclick="CordaFundo('black');">Cor do fundo-preto</button>
+        <button onclick="CordaFundo('white');">Cor do fundo-branco</button>
+    </section>
+    <section>
+        <header>
+            <h2>Exercicio 7</h2>
+        </header>
+        <p>
+        <h4>Crie um botão + (mais) e outro – (menos) na mesma página do exercício anterior. Esses botões aumentam e
+            diminuem o tamanho da fonte, respectivamente.</h4>
+        </p>
+        <p id="ex07">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum consequuntur repellat molestiae, recusandae
+            tempore omnis possimus asperiores fugit molestias at ducimus! Omnis architecto eaque modi temporibus.
+            Perspiciatis, ut velit? Fuga.
+        </p>
+        <strong>Tamanho da fonte:</strong><br>
+        <input type="number" id="aumetarFonte">
+
+        <button onclick="tamanhoMais();">+</button>
+        <button onclick="tamanhoMenos();">-</button>
+        <button id="btnAumentar" onclick="TamanhorFonte();"> Salvar</button>
+
+    </section>
+    <section>
+        <header>
+            <h2>Exercicio 8</h2>
+        </header>
+        <p>
+        <h4>faça um botão que transforme todo o texto do parágrafo em maiúscula, e
+            outro em minúscula. </h4>
+        </p>
+
+        <p id="ex08">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet autem sit est, dolor vitae
+            inventore reiciendis rerum totam atque ad veritatis magni iste sequi sed assumenda alias quod tempora.
+        </p>
+        <button onclick="Maiuscula();">Texto Maiúscula</button>
+        <button onclick="Miniscula();">Texto Minúscula</button>
+    </section>
+    <section>
+        <header>
+            <h2>Exercicio 9</h2>
+        </header>
+        <p>
+        <h4>Crie um formulário com os campos para cadastrar o usuário de um sistema (login, senha e confirmar senha).
+            Permita que a página seja submetida apenas se todos os campos estiverem preenchidos, se os campos senha e
+            confirma senha forem iguais e a senha possuir entre 6 e 10 caracteres. </h4>
+        </p>
+        <form action="">
+            <label>Nome:</label>
+        <input id="nome" type="text" required>
+        <br /><br />
+        <label>Senha:</label>
+        <input id="senha1" type="password" required>
+        <br /><br />
+        <label>Confirmar a senha:</label>
+        <input id="senha2" type="password" required>
+        <br /><br />
+        <button onclick="validar();">Salvar</button>
+
+        </form>
+
+    </section>
+    <section>
+        <header>
+            <h2>Exercicio 10</h2>
+        </header>
+        <p>
+        <h4>Crie um formulário de cadastro de cliente. O formulário deve conter os campos Nome (text), Pessoa
+            (Física/Jurídica – radio), CPF (text), CNPJ (text), data de nascimento, endereço (text), cep (text),
+            telefone (text), email. O formulário deve ativar o campo CPF apenas se o RadioButton de pessoa física
+            estiver ativo e o campo de CNPJ no caso de pessoa jurídica. O campo data de nascimento também só deve estar
+            ativo no caso de pessoa física ser selecionado e deve aceitar que somente números sejam digitados. O campo
+            CEP também só deve aceitar número. </h4>
+        </p>
+        <form>
+            <label>Nome:</label>
+            <input id="nome" type="text" required>
+            <br /><br />
+            <label>Tipo pessoa</label>
+            <input name="pessoa" onclick="alteraVisibilidade('fisica');" type="radio" checked>Física</input>
+            <input name="pessoa" onclick="alteraVisibilidade('juridica');" type="radio">Jurídica</input>
+    
+            <div id="pessoaFisica">
+                <label>CPF</label>
+                <input id="cpf" onkeyup="mascara('###.###.###-##',this,event)" type="text">
+                <label>Data de Nascimento</label>
+                <input id="dt" type="date">
+            </div>
+    
+            <div id="pessoaJuridica" style="display: none;">
+                <label>Registro PJ</label>
+                <input id="cnpj" onkeyup="mascara('##.###.###/####-##',this,event)" type="text">
+            </div>
+    
+            <label>Endereço</label>
+            <input type="text" id="endereco">
+    
+            <label>CEP</label>
+            <input type="number" onkeyup="mascara('#####-###',this,event)" id="cep">
+    
+            <label>Fone</label>
+            <input type="text" onkeyup="mascara('(##)#####-####',this,event)" id="fone">
+    
+            <label>Email</label>
+            <input type="email" id="email">
+    
+            <button onclick="cadastrar();">Salvar</button>
+        </form>
+       
+    </section>
+
+</body>
+
+</html>

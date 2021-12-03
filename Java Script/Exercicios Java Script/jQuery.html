@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat aliquid iste explicabo debitis
+        blanditiis ducimus suscipit. Consectetur possimus harum, recusandae nihil amet non voluptates aspernatur
+        excepturi soluta modi ratione.
+        Id numquam recusandae quia dignissimos autem tempore! Perspiciatis earum doloremque impedit quae in consequuntur
+        officia officiis nulla iste voluptates quidem aperiam tempora quas fuga ex alias, magni repudiandae natus odit!
+        Architecto ipsum ea, suscipit debitis, porro omnis minima sed ipsam ab, esse quae. Incidunt, quae explicabo?
+        Nam, sequi. Excepturi quam rem, molestiae repellat optio corrupti quod aliquam assumenda molestias nihil!</p>
+    <script>
+        $(document).ready(function () {
+            $("p").click(function () {
+                $(this).hide();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $("p").click(function () {
+                $(this).hide();
+            });
+
+            $("#btn01").click(function () {
+
+                $("#div1").fadeToggle();
+                $("#div2").fadeToggle("slow");
+                $("#div3").fadeToggle(3000);
+
+            });
+        });
+    </script>
+    </head>
+
+    <body>
+        <h1>Aula jQuery</h1>
+        <br />
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo porro labore quos illo vero at quae? Qui
+            fugiat ipsum sed. Natus aliquam laborum quo id enim quaerat dolores ut quod.
+        </p>
+
+        <button id="btn01">Clique aqui!</button>
+        <br /> <br />
+        <div id="div1" style="width:80px; height: 80px; background-color: red;"></div>
+        <div id="div2" style="width:80px; height: 80px; background-color: green;"></div>
+        <div id="div3" style="width:80px; height: 80px; background-color: blue;"></div>
+
+    </body>
+
+    <p id="texto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio, totam accusantium delectus,
+        veritatis iusto consequatur nemo suscipit sapiente aliquam omnis modi qui illo tempore, accusamus culpa eligendi
+        commodi consectetur?
+    </p>
+    <button id="btn1">vermelho</button>
+    <button id="btn2">verde</button>
+    <button id="btn3">azul</button>
+    <button id="btn4">amarelo</button>
+    <button id="btn5">Branco</button>
+    <script>
+        $("#btn1").click(function () {
+            $("#texto").css("background-color", "red");
+        });
+        $("#btn2").click(function () {
+            $("#texto").css("background-color", "Green");
+        });
+        $("#btn3").click(function () {
+            $("#texto").css("background-color", "Blue");
+        });
+        $("#btn4").click(function () {
+            $("#texto").css("background-color", "Yellow");
+        });
+        $("#btn5").click(function () {
+            $("#texto").css("background-color", "White");
+        });
+    </script><br>
+    <p id="tttt">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, placeat aspernatur enim voluptates fuga velit
+        corporis accusamus, a amet, laborum architecto alias dolorum ipsam explicabo quidem corrupti rem! Molestias,
+        distinctio!
+        Modi eligendi corporis, ratione facilis sequi aspernatur architecto quasi ad dicta sed hic minus laudantium fuga
+        blanditiis rerum unde neque mollitia ipsum deleniti fugiat adipisci! Eius dignissimos asperiores dolor velit!
+    </p>
+    <button id="btn55">+ mais</button>
+    <button id="btn66">- menos</button>
+    <script>
+        $("#btn55").click(function () {
+            $("#tttt").css("fontSize", "60 px");
+        });
+        $("#btn66").click(function () {
+            $("#tttt").css("fontSize", "40 px");
+        });
+
+    </script>
+</body>
+
+</html>
