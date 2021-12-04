@@ -277,7 +277,7 @@ namespace Funcao
         {
             for (int i = 0; i < 3; i++)
             {
-              var total=  vetor[i] * i;
+              //var total=  vetor[i] * i;
             }
         }
     }

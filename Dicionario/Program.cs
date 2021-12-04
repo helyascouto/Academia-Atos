@@ -27,13 +27,13 @@ namespace Dicionario
             Console.WriteLine(dic[1]);
 
             string resultado;
-            if (dic.TryGetValue(1,out resultado))
+            if (dic.TryGetValue(1, out resultado))
             {
-                Console.WriteLine(resultado+"resutado");
+                Console.WriteLine(resultado + "resutado");
             }
             else
             {
-                Console.WriteLine("Não foi possivel achar a chave espesififada");
+                Console.WriteLine("Não foi possivel achar a chave espesificada");
             }
 
 
@@ -44,10 +44,10 @@ namespace Dicionario
             //remove pelo key
             dic.Remove(1);
 
-            Dictionary<int,Pessoa> dic2 = new Dictionary<int,Pessoa>();
+            Dictionary<int, Pessoa> dic2 = new Dictionary<int, Pessoa>();
             Pessoa p1 = new Pessoa("Elias");
             Pessoa p2 = new Pessoa("Lorena");
-            dic2.Add(1,p1);
+            dic2.Add(1, p1);
             dic2.Add(2, p2);
             Console.WriteLine(p1.nome);
 
@@ -56,8 +56,8 @@ namespace Dicionario
 
 
         }
-       
-   
-	
+
+
+
     }
 }
