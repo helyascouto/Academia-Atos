@@ -15,7 +15,7 @@ namespace Leitura_de_arquivo
             StreamWriter sw;
             try
             {
-                sw = new StreamWriter(@"C:\Users\Elias Couto\Source\Repos\helyascouto\Academia - Atos\Leitura de arquivo" + nome + ".txt", true, Encoding.UTF8);
+                sw = new StreamWriter(@"C:\Users\Elias Couto\Source\Repos\helyascouto\Academia - Atos\Leitura de arquivo\" + nome + ".txt", true, Encoding.UTF8);
                 while (true)
                 {
                     Console.WriteLine("Digite uma mensagem para o futuro: ");

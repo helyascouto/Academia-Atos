@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio 1-Mostra", "Desafio\Desafio 1\Desafio 1-Mostra.csproj", "{0EB8D592-0164-4B73-8556-9F962A9409F8}"
 EndProject
@@ -72,11 +72,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForms-Controle dinamicos
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exception", "Exception", "{61897AA6-48D2-4065-84BD-A67420E0D930}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionAula", "Exception\ExceptionAula.csproj", "{3724FC16-D25B-46A0-83C6-A3188A095A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionAula", "Exception\ExceptionAula.csproj", "{3724FC16-D25B-46A0-83C6-A3188A095A1E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StreamWriter", "StreamWriter", "{FC28E2B0-04F9-4F25-AB33-853F6A8110AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leitura de arquivo", "Leitura de arquivo\Leitura de arquivo.csproj", "{A8A22CBE-01F8-4E21-8080-AAEB3305A7A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leitura de arquivo", "Leitura de arquivo\Leitura de arquivo.csproj", "{A8A22CBE-01F8-4E21-8080-AAEB3305A7A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeituraEscrita", "LeituraEscrita\LeituraEscrita.csproj", "{538B65A2-CF01-4B9C-9416-3678B676D8ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlarmeWF", "..\..\AlarmeWF\AlarmeWF\AlarmeWF.csproj", "{9444CD18-8FFC-438C-9291-1BBB70B26A37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "importacaoBanco", "..\..\importacaoBanco\importacaoBanco\importacaoBanco.csproj", "{B4EE4464-FFBD-4F8F-BBE4-342BD6896BCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegraçãoBD_TXT", "..\..\IntegraçãoBD_TXT\IntegraçãoBD_TXT\IntegraçãoBD_TXT.csproj", "{370C739A-093D-4648-BB99-BC39A6D7449D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jogo da Velha", "..\..\Jogo da Velha\Jogo da Velha\Jogo da Velha.csproj", "{79D3C11D-F715-4AA3-BDE7-1460BF7AE7DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -152,6 +162,26 @@ Global
 		{A8A22CBE-01F8-4E21-8080-AAEB3305A7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8A22CBE-01F8-4E21-8080-AAEB3305A7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8A22CBE-01F8-4E21-8080-AAEB3305A7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538B65A2-CF01-4B9C-9416-3678B676D8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538B65A2-CF01-4B9C-9416-3678B676D8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538B65A2-CF01-4B9C-9416-3678B676D8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538B65A2-CF01-4B9C-9416-3678B676D8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9444CD18-8FFC-438C-9291-1BBB70B26A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9444CD18-8FFC-438C-9291-1BBB70B26A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9444CD18-8FFC-438C-9291-1BBB70B26A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9444CD18-8FFC-438C-9291-1BBB70B26A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EE4464-FFBD-4F8F-BBE4-342BD6896BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EE4464-FFBD-4F8F-BBE4-342BD6896BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EE4464-FFBD-4F8F-BBE4-342BD6896BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EE4464-FFBD-4F8F-BBE4-342BD6896BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370C739A-093D-4648-BB99-BC39A6D7449D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370C739A-093D-4648-BB99-BC39A6D7449D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370C739A-093D-4648-BB99-BC39A6D7449D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370C739A-093D-4648-BB99-BC39A6D7449D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D3C11D-F715-4AA3-BDE7-1460BF7AE7DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D3C11D-F715-4AA3-BDE7-1460BF7AE7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D3C11D-F715-4AA3-BDE7-1460BF7AE7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D3C11D-F715-4AA3-BDE7-1460BF7AE7DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -176,6 +206,11 @@ Global
 		{4F8CF8A9-5187-47F1-9A45-21F2A3B8D6FB} = {BF32D04E-C7F5-4A15-A4F6-B82A48BBF728}
 		{3724FC16-D25B-46A0-83C6-A3188A095A1E} = {61897AA6-48D2-4065-84BD-A67420E0D930}
 		{A8A22CBE-01F8-4E21-8080-AAEB3305A7A8} = {FC28E2B0-04F9-4F25-AB33-853F6A8110AB}
+		{538B65A2-CF01-4B9C-9416-3678B676D8ED} = {FC28E2B0-04F9-4F25-AB33-853F6A8110AB}
+		{9444CD18-8FFC-438C-9291-1BBB70B26A37} = {BF32D04E-C7F5-4A15-A4F6-B82A48BBF728}
+		{B4EE4464-FFBD-4F8F-BBE4-342BD6896BCF} = {BF32D04E-C7F5-4A15-A4F6-B82A48BBF728}
+		{370C739A-093D-4648-BB99-BC39A6D7449D} = {BF32D04E-C7F5-4A15-A4F6-B82A48BBF728}
+		{79D3C11D-F715-4AA3-BDE7-1460BF7AE7DB} = {BF32D04E-C7F5-4A15-A4F6-B82A48BBF728}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5DF9800-A824-43ED-B2CC-AE625AF8F2B4}
