@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Aula_WebForms", "Aula_WebForms\Aula_WebForms.vbproj", "{4BC40D2F-3FC8-49B2-8294-E6185AE775D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC40D2F-3FC8-49B2-8294-E6185AE775D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC40D2F-3FC8-49B2-8294-E6185AE775D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC40D2F-3FC8-49B2-8294-E6185AE775D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC40D2F-3FC8-49B2-8294-E6185AE775D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32D81D18-FA93-4AB0-BC84-6BAC1BD05756}
+	EndGlobalSection
+EndGlobal
